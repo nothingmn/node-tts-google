@@ -14,3 +14,9 @@ tts.speak(text);  //defaults to english
 
 tts.speak(text, 'el'); //force greek
 
+
+
+Note:
+The Speaker library will require this environment variable to be set, prior to calling npm install:
+
+set VisualStudioVersion=11.0
