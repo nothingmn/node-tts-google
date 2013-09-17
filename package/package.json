@@ -23,5 +23,6 @@
   "engines": {
     "node": ">=0.10.15"
   },
-  main : "./main"
+  "main" : "./main", 
+  "bugs" : { "web" : "https://github.com/nothingmn/node-tts-google/issues" }
 }
