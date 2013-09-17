@@ -1,0 +1,27 @@
+{
+  "name": "node-tts-google",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Rob Chartier <rob.chartier@gmail.com>",
+  "description": "A node library to use googles text to speech translation to play audio to the speaker directly.",
+  "contributors": [ 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nothingmn/node-tts-google.git"
+  },
+  "keywords": [
+    "google",
+    "tts",
+    "text to speech"
+  ],
+  "dependencies" : {
+    "request"   : "*",
+    "lame" 	: "*",
+    "speaker" 	: "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.15"
+  }
+}
