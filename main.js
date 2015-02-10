@@ -3,7 +3,7 @@ var _done;
 
 function _speak(text, lang) {
 
-	if(typeof lang == 'undefined' || !lang) lang = "en;"
+	if(typeof lang == 'undefined' || !lang) lang = "en"
 	var platform = process.platform;
 	var isWin32 = (platform == "win32");
 
